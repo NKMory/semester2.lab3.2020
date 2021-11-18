@@ -9,7 +9,7 @@ double function(int j)
 
 int main()
 {
-    std::cout << "Your function is \"a * sin(b * j) + (2 / c)\"" << std::endl;
+    std::cout << "Your function is \"a * sin(b * value) + (2 / c)\"" << std::endl;
     std::cout << "Enter a, b and c: " << std::endl;
     std::cin >> a >> b >> c;
     if (c == 0)
